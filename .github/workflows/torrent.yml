@@ -1,15 +1,15 @@
-name: Create torrent
+name: Createas
 on:
   push:
     branches:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
+  name: "Android Studio sa"
+  comment: "Android Studio for Windsaows"
+  url: "https://fs1.1cloudfile.com/token/download/dl/kx6C/No.Plan.B.Build.14244705.rar?download_token=e48a82114d73c5842ee848dc161061ce8f6e89f832ee39dacf2bf8cb73290611"
   file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  piece_size: 2^19 = 524 288 = 512 KiB
       
 jobs:
   create:
