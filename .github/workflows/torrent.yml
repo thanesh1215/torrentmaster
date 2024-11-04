@@ -5,10 +5,10 @@ on:
       - master
       
 env:
-  name: "ShaleSeg: dataset"
-  comment: "The first deep-learning dataset and models for practical fracture segmentation of large-scale-shale CT images"
-  url: "http://www.geophys.ac.cn/ArticleData/20231023ShaleSeg.zip"
-  file_name: "Shaleseg.zip"
+  name: "ParticleSeg 3D: dataset"
+  comment: "The sample dataset consisting of the whole CT images and the patch dataset with extracted patches from these samples alongside their respective instance segmentations"
+  url: "https://syncandshare.desy.de/index.php/s/wjiDQ49KangiPj5/download"
+  file_name: "ParticleSeg3D.zip"
   piece_size: 24 # Check the README.md for recommended piece size
       
 jobs:
