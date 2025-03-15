@@ -1,15 +1,15 @@
-name: Create torrent
+name: PES2021
 on:
   push:
     branches:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  name: "PES2021"
+  comment: "PES2021"
+  url: "https://up.downloadcomputergames.net/2021/10/download-pes-2021-pc/eFootball-PES-2021.zip"
+  file_name: "eFootball-PES-2021.zip"
+  piece_size: "2^23"
       
 jobs:
   create:
