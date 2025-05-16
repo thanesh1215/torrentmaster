@@ -5,11 +5,11 @@ on:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
-  piece_size: 19 # Check the README.md for recommended piece size
+  name: "AIO FIFA 19 update"
+  comment: "fifa 19 mod fc25"
+  url: "https://download2388.mediafire.com/lptipsegvn7goGN40MdW4bVPOGes8yNFYQIJyOvvaAZ2KJwrh3af3hU_CEv7eib4AmEJsTOuSnrKMhP-7Hf2xAatWEw_Z9fVOb-ok5kwsU_3k_hrFUpRdiswedc4zJOlg6lzsxXsFWpCiupy3n2IxMk8RFS5mApDT1sOL6v82OnYgzTj9w/4j3mvb0cok62ej2/UPTOWN+GAMES+-+FIFA+19+PATCH+FC+25+AIO.zip"
+  file_name: "AIO fifa 19 to fc25"
+  piece_size: 22 # Check the README.md for recommended piece size
       
 jobs:
   create:
